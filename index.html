@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 35 Javascript To-Do List</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+                <div class="col-10 mt-3 offset-1">
+                    <div class="input-group mt-3">
+                        <input type="text" class="form-control" placeholder="Type here" id="board-title">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-success" id="add" onclick="addBoard()">Add</button>
+                        </div>
+                    </div>
+
+                    <div class="progress mt-3">
+                        <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" id="progress-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+
+        <div class="col-9 mt-3">
+            <div class="row" id="result"></div>
+        </div>
+</div>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
